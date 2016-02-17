@@ -1,0 +1,22 @@
+{
+	"name": "hypejunction/group_profile",
+	"version": "1.0.1",
+	"type": "elgg-plugin",
+	"description": "Group lists for Elgg",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "plugin", "profile", "groups"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"composer/installers": "~1.0"
+	}
+}
+
