@@ -20,3 +20,6 @@ You can use `'layout_vars','group_profile'` hook to change layout type and layou
 
 You can change the layout for a specific group subtype, by adding `profiles/group/$subtype` view.
 
+## Acknowledgements
+
+This plugin has been sponsored by [IvyTies.com](http://www.ivyties.com) - a social network platform for college admissions
