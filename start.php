@@ -80,7 +80,7 @@ function group_profile_router($hook, $type, $return, $params) {
 
 	$resource_params['page'] = $page;
 	$resource_params['segments'] = $segments;
-	echo elgg_view_resource("groups/$page", $resource_params);
+	echo elgg_view("resources/groups/$page", $resource_params);
 	return false;
 }
 
