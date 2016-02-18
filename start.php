@@ -16,8 +16,6 @@ elgg_register_event_handler('init', 'system', 'group_profile_init');
  */
 function group_profile_init() {
 
-	add_group_tool_option('activity', elgg_echo('groups:tools:activity'));
-
 	elgg_register_plugin_hook_handler('route', 'groups', 'group_profile_router', 999);
 	
 	elgg_register_plugin_hook_handler('register', 'menu:groups:my_status', 'group_profile_my_status_menu_setup');
