@@ -14,7 +14,7 @@ if (!elgg_group_gatekeeper(false, $entity->guid)) {
 $identifier = is_callable('group_subtypes_get_identifier') ? group_subtypes_get_identifier($entity) : 'groups';
 
 $url = elgg_get_site_url() . 'search';
-$body = elgg_view_form("$identifier/search", array(
+$body = elgg_view_form('groups/search', array(
 	'action' => $url,
 	'method' => 'get',
 	'disable_security' => true,
