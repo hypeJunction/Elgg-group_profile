@@ -25,7 +25,7 @@ elgg_push_breadcrumb($entity->getDisplayName(), $entity->getURL());
 elgg_push_breadcrumb($title);
 
 $vars['entity'] = $entity;
-$content = elgg_view('lists/groups/river', $vars);
+$content = elgg_view('lists/groups/activity', $vars);
 $filter = elgg_view('filters/groups/river', $vars);
 
 $params = array(
