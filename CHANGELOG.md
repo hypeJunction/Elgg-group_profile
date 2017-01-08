@@ -1,3 +1,13 @@
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/hypeJunction/Elgg-group_profile/compare/1.0.2...v1.0.3) (2017-01-08)
+
+
+### Bug Fixes
+
+* **activity:** activity page shows the feed once again ([3bf57bf](https://github.com/hypeJunction/Elgg-group_profile/commit/3bf57bf))
+
+
+
 <a name="1.0.2"></a>
 ## 1.0.2 (2016-02-18)
 
